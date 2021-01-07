@@ -1,6 +1,6 @@
-# Lab Template
+# About
 
-File template for basic HTML, CSS, and JavaScript classes
+visit: https://thesalted.github.io/art101/
 
 ## Basic Structure
 
