@@ -1,20 +1,23 @@
 h1 {
-  color: orange;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  color: #04086f;
   font-size: 200%;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 p {
-  font-family: "Sweet XX Bold";
-  text-indent: 20px;
-  margin-left: 10px;
+  font-family: Arial, Verdana, Helvetica, sans-serif;
+  color: #04086f;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 #content {
-  background-color: #cccccc;
+  background-color: #f59dc0;
   width: 500px;
   min-height: 300px;
   padding: 10px;
   margin: 10px;
-  border: solid 1px #444444;
-  font-size: 20px;
+  font-size: 15px;
 }
