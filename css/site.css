@@ -1,7 +1,8 @@
 @font-face {
   font-family: "sweet-xx";
   src: url("../resource/sweet_xx-bold-webfont.woff2") format("woff2"),
-    url("../resource/sweet_xx-bold-webfont.woff") format("woff");
+    url("../resource/sweet_xx-bold-webfont.woff") format("woff"),
+    url("..resource/sweet_xx-bold-webfont.ttf") format("ttf");
 }
 
 h1 {
