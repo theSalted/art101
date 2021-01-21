@@ -28,6 +28,13 @@ p {
   margin-right: 15px;
 }
 
+figcaption {
+  font-family: sweet-xx, sans-serif;
+  color: #f20732;
+  font-size: 50%;
+  text-align: center;
+}
+
 body {
   background-color: #07038c;
   width: 500px;
