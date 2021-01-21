@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "sweet-xx";
+  src: url("../resource/sweet_xx-bold-webfont.woff2") format("woff2"),
+    url("../resource/sweet_xx-bold-webfont.woff") format("woff"),
+    url("..resource/sweet_xx-bold-webfont.ttf") format("ttf");
+}
+
+h1 {
+  font-family: sweet-xx, sans-serif;
+  color: #f20732;
+  font-size: 200%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+h2 {
+  font-family: sweet-xx, sans-serif;
+  color: #f20732;
+  font-size: 150%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+p {
+  font-family: sweet-xx, sans-serif;
+  color: #f20732;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+body {
+  background-color: #07038c;
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+}
