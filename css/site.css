@@ -13,6 +13,14 @@ h1 {
   margin-right: 15px;
 }
 
+h2 {
+  font-family: sweet-xx, sans-serif;
+  color: #f20732;
+  font-size: 150%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 p {
   font-family: sweet-xx, sans-serif;
   color: #f20732;
@@ -26,6 +34,16 @@ a {
   margin-left: 15px;
   margin-right: 15px;
 }
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
 body {
   background-color: #07038c;
   width: 500px;
