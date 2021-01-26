@@ -1,0 +1,49 @@
+h1 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: #fe34b3;
+  font-size: 200%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: #fe34b3;
+  font-size: 150%;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+p {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  color: #fe34b3;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+a {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 200%;
+  color: #fe34b3;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+code {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  font-size: 200%;
+  color: #fe34b3;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+body {
+  background-color: #2110a2;
+  padding: 10px;
+  margin: 10px;
+  font-size: 30px;
+}
