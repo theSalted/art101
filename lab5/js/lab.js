@@ -1,5 +1,5 @@
 /*
- * Author: Yuhao Chen <ychen514@ucsc.edu
+ * Author: Yuhao Chen <ychen514@ucsc.edu>
  * Created: 28 January
  * License: Public Domain
  */
@@ -7,7 +7,7 @@
 //Define Variables
 make = "Toyota";
 model = "Camry";
-color = "Sonic Red";
+color = "SuperSonic Red";
 year = 2019;
 
 //Calculate
