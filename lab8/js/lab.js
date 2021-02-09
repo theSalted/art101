@@ -13,7 +13,7 @@ function secondThing(test) {
 }
 
 function thirdThing(test) {
-  console.log(test + ": This is the first thing. <br>")
+  console.log(test + ": This is the third thing. <br>")
 }
 
 firstThing("TEST 1")
