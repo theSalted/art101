@@ -19,8 +19,6 @@ new2El.innerHTML = "This is element 2";
 outputEl.appendChild(new1El);
 outputEl.appendChild(new2El);
 
-document.getElementById("smaller"). 
-style.fontSize = "10pt";
+document.getElementById("smaller").style.fontSize = "10pt";
 
-document.getElementById("bigger"). 
-style.fontSize = "30pt";
+document.getElementById("bigger").style.fontSize = "30pt";
