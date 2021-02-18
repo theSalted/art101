@@ -4,29 +4,29 @@
  * License: Public Domain
  */
 
-$("#challenge").append("<button id=challenge-button>challenge");
+$("#challenge").append("<button id=cb>challenge");
 
-$("#problem").append("<button id=problems-button>problem");
+$("#problem").append("<button id=pb>problem");
 
-$("#result").append("<button id=results-button>result");
+$("#result").append("<button id=rb>result");
 
-$("#challenge-button").click(function () {
+$("#cb").click(function () {
   alert("Go away.");
   $("#output").append("<p>challenge button is pushed</p>");
-  $("#problems-button").css("color", "green");
-  $("#challenge-button").css("color", "black");
+  $("#pb").css("color", "green");
+  $("#cb").css("color", "black");
 });
 
-$("#problems-button").click(function () {
+$("#pb").click(function () {
   alert("Stop!!!");
   $("#output").append("<p>problem button is pushed</p>");
-  $("#results-button").css("color", "blue");
-  $("#problems-button").css("color", "black");
+  $("#rb").css("color", "blue");
+  $("#pb").css("color", "black");
 });
 
-$("#results-button").click(function () {
+$("#rb").click(function () {
   alert("Stop it already!");
   $("#output").append("<p>result button is pushed</p>");
-  $("#challenge-button").css("color", "yellow");
-  $("#results-button").css("color", "black");
+  $("#cb").css("color", "yellow");
+  $("#rb").css("color", "black");
 });
