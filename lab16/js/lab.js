@@ -22,7 +22,7 @@ prev.addEventListener("click", function () {
 });
 
 function output(output) {
-  console.log("outputing:" + output);
+  console.log("outputing: " + output);
   $("#output").html(output);
 }
 
@@ -34,7 +34,7 @@ function getComic() {
     url: url,
     success: function (data) {
       console.log(data);
-      comicObj = result;
+      comicObj = data;
       var comicFomatted = `<h3>${comicObj.title}</h3><img src=${comicObj.img} alt="${comicObj.alt}" title="${comicObj.alt}">`;
       output(comicFomatted);
     },
@@ -46,7 +46,8 @@ function getComic() {
 }
 
 function getPrev() {
-  if ((issueNum = 1)) {
+  console.log("current issueNum: " + issueNum);
+  if (issueNum == 1) {
     console.log("You reach to the end of the comics");
     output(
       "You reach to the end of the comics. Refresh to view the first comic"
